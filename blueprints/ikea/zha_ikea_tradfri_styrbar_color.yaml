@@ -49,10 +49,9 @@ blueprint:
       name: Brightness state
       description: The brightness state to use when the remote is turned on.
       selector:
-        select:
-          entity:
-            filter:
-              - domain: input_number
+        entity:
+          filter:
+            - domain: input_number
 
 mode: restart
 max_exceeded: silent
