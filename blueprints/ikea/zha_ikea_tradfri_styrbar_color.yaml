@@ -51,7 +51,7 @@ blueprint:
       selector:
         entity:
           filter:
-            - domain: input_number
+            - domain: light
 
 mode: restart
 max_exceeded: silent
